@@ -25,9 +25,15 @@
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>
                         <a href="{{ page.url }}">{{ page.title }}</a>
+                        
+                        {% for Bullet in pages["_meta"].meta.Bullet %}
+                            <i class="{{ Bullet.icon }}" aria-hidden="true"></i>
+                        {% endfor %}
+                        
                     </li>
                 {% endfor %}
             </ul>
         </div>
     </div>
 </div>
+

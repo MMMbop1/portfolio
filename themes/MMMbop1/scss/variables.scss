@@ -1,0 +1,17 @@
+@use 'sass:math';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+@mixin theme($theme: 100) {
+    font-family: $play-fair;
+    font-weight: $theme;
+}
+
+%border-shared {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
+    border-radius: 3%;
+}
+
+$margin: 1em 1em 0;
+$play-fair: 'Playfair Display', serif;
+$background-color: #eaf1f5;

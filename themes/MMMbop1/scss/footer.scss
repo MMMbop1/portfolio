@@ -1,0 +1,14 @@
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    background-color: $background-color;
+    
+    .social > a {
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+}
