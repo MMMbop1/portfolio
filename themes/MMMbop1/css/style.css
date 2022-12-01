@@ -329,7 +329,7 @@ template {
 /* header */
 .header {
   box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
-  background-color: rgb(196, 197, 198);
+  background-color: rgb(238, 238, 238);
 }
 
 .site-header {
@@ -403,7 +403,7 @@ ul i {
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  background-color: rgb(196, 197, 198);
+  background-color: rgb(238, 238, 238);
 }
 .footer .social > a {
   margin-top: 1em;
@@ -412,7 +412,7 @@ ul i {
 }
 
 .landingpage {
-  background-color: rgb(196, 197, 198);
+  background-color: rgb(238, 238, 238);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -434,7 +434,7 @@ ul i {
 
 .box {
   border-radius: 25px;
-  background-color: rgb(196, 197, 198);
+  background-color: rgb(238, 238, 238);
   margin: 0 1em 1em;
 }
 
@@ -448,7 +448,7 @@ a {
 }
 
 .technology-main {
-  background-color: rgb(196, 197, 198);
+  background-color: rgb(238, 238, 238);
   display: flex;
   flex-direction: column;
 }
@@ -6669,7 +6669,7 @@ h2 {
 .main {
   flex-grow: 1;
   margin: 1em 1em 0;
-  background-color: rgb(196, 197, 198);
+  background-color: rgb(238, 238, 238);
 }
 
 p > img {
