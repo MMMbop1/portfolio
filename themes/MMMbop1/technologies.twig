@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+{% include 'incl/header.twig' %}
+
+{% if meta.title == "Technologies" %}
+    <div class="landingpage">
+        {{ content }}
+            {% for page in pages("technologies") %}
+                <div class="{{ page.title }} box" onclick="location.href='{{ page.url }}';" style="cursor: pointer;">
+                    <h2> {{page.title}} </h2>
+                    <p> {{page.description}} </p>
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                </div>
+            {% endfor %}
+    <div>
+{% endif %}
+
+{% if meta.title != "Technologies" %}
+    <div class="technology-wrapper">
+
+        <div class="technology-sidebar">
+                {% for page in pages("technologies") %}
+                    <div class="{{ page.title }} box" onclick="location.href='{{ page.url }}';" style="cursor: pointer;">
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </div>
+                {% endfor %}
+        </div>
+
+        <div class="technology-main">
+                {{ content }} 
+        </div>
+    </div>
+{% endif %}
+
+</html>

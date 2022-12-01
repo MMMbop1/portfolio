@@ -4,6 +4,7 @@
 @import 'variables';
 @import 'header';
 @import 'footer';
+@import 'technologies';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -18,11 +19,16 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     color: rgb(64, 64, 64);
 }
 
+p {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, #eaf1f5, #dce9f5);
+    background: $bodybackground-color;
 }
 
 h1 {

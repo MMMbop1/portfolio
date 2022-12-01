@@ -9,9 +9,24 @@
 
 %border-shared {
     box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
-    border-radius: 3%;
+    border-radius: 25px;
+}
+
+%border-hover {
+    background-color: rgb(65, 69, 73);
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+
+    * {
+        color: rgb(255, 255, 255);
+    }
+}
+
+%margin-mobile {
+    margin: 2em 1em;
 }
 
 $margin: 1em 1em 0;
 $play-fair: 'Playfair Display', serif;
-$background-color: #eaf1f5;
+$background-color: rgb(196, 197, 198);
+$bodybackground-color: linear-gradient(to right, #aaacad, #595959);
