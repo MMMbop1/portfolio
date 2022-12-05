@@ -308,7 +308,7 @@ template {
   display: none;
 }
 
-.main, .technology-main, .box, .landingpage {
+.main, .table-color-details, .palette-container img, .technology-main, .box, .landingpage {
   box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
   border-radius: 25px;
 }
@@ -460,6 +460,10 @@ a {
 .technology-main p {
   text-align: start;
 }
+.technology-main h2 {
+  text-align: start;
+  margin-left: 1.35em;
+}
 
 @media screen and (min-width: 960px) {
   .landingpage {
@@ -521,6 +525,110 @@ a {
     grid-column: 2/5;
     margin-right: 4em;
     margin-top: 0;
+  }
+}
+.palette-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.palette-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.palette-container p {
+  font-size: 20px;
+}
+.palette-container img {
+  width: 60%;
+  margin: 2em;
+}
+.palette-container .img-container {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.ica-palette p {
+  font-family: ICA Text, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.coop-palette p {
+  font-family: Akkurat, sans-serif;
+}
+
+.hemkop-palette p {
+  font-family: Objektiv, sans-serif;
+}
+
+.all-palletes {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  width: auto;
+  margin: 5em 0em;
+  border-bottom: 1em;
+}
+
+.table-colors td {
+  width: 50px;
+  height: 150px;
+}
+
+.header-td {
+  background-color: rgb(238, 238, 238);
+  width: 75px !important;
+  text-align: center;
+}
+
+.table-color-details {
+  border-spacing: 1em;
+  border-collapse: collapse;
+  overflow: hidden;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.table-color-details td, .table-color-details th {
+  position: relative;
+  padding: 15px;
+}
+.table-color-details th {
+  font-weight: bold;
+  background-color: rgba(154, 148, 148, 0.4);
+}
+.table-color-details td:hover::before, .table-color-details th:hover::before {
+  background-color: rgba(216, 210, 210, 0.4);
+  position: absolute;
+  content: "";
+  height: 10000px;
+  left: 0;
+  top: -5000px;
+  width: 100%;
+  z-index: -1;
+}
+.table-color-details tr:hover {
+  background-color: rgba(216, 210, 210, 0.4);
+}
+.table-color-details td:hover {
+  background-color: #d8d2d2;
+}
+
+@media screen and (max-width: 1300px) {
+  .all-palettes {
+    margin: 0em !important;
+    width: 95% !important;
+  }
+  .table-details-container {
+    margin: 0em !important;
+    width: 95% !important;
+    overflow-x: scroll;
+    display: block !important;
+  }
+  .table-details-container td, .table-details-container th {
+    padding: 5px;
   }
 }
 /*!

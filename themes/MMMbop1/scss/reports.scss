@@ -1,0 +1,119 @@
+.palette-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    p {
+        font-size: 20px;
+    }
+    img {
+        width: 60%;
+        margin: 2em;
+        @extend %border-shared;
+    }
+    .img-container {
+        box-shadow: none;
+        border-radius: 0;    
+    }
+}
+
+.ica-palette {
+    p {
+        font-family: ICA Text,Arial,Helvetica Neue,Helvetica,sans-serif;
+    }
+}
+
+.coop-palette {
+    p {
+        font-family: Akkurat,sans-serif;
+    }
+}
+
+.hemkop-palette {
+    p {
+        font-family: Objektiv, sans-serif;
+    }
+}
+
+.all-palletes {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    width: auto;
+    margin: 5em 0em;
+    border-bottom: 1em;
+}
+
+.table-colors {
+    td {
+        width: 50px;
+        height: 150px;
+    }
+}
+
+.header-td {
+    background-color: $background-color;
+    width: 75px !important;
+    text-align: center;
+}
+
+.table-color-details {
+    @extend %border-shared;
+    border-spacing: 1em;
+    border-collapse: collapse;
+    overflow: hidden;
+    z-index: 1;
+    background-color: rgba($color: #ffffff, $alpha: 0.4);
+    td, th {
+        position: relative;
+        padding: 15px;
+    }
+    th {
+        font-weight: bold;
+        background-color: rgba($color: #9a9494, $alpha: 0.4);
+    }
+    td:hover::before, th:hover::before {
+        background-color: rgba($color: #d8d2d2, $alpha: 0.4);
+        position: absolute;
+        content: "";
+        height: 10000px;
+        left: 0;
+        top: -5000px;
+        width: 100%;
+        z-index: -1;
+    }
+    tr:hover {
+        background-color: rgba($color: #d8d2d2, $alpha: 0.4);
+    }
+    td:hover {
+        background-color: rgba($color: #d8d2d2, $alpha: 1);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .all-palettes {
+        margin: 0em !important;
+        width: 95% !important;
+    }
+
+    .table-details-container {
+        margin: 0em !important;
+        width: 95% !important;
+        overflow-x: scroll;
+        display: block !important;
+        td, th {
+            padding: 5px;
+        }
+    }
+}
+
+
+
