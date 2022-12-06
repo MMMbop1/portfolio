@@ -373,7 +373,7 @@ img {
 }
 
 .nav {
-  background-color: #adb5bd;
+  background-color: rgba(173, 181, 189, 0.9);
   grid-row: 2/2;
 }
 .nav ul > li {
@@ -458,7 +458,7 @@ ul i {
 }
 
 .landingpage {
-  background-color: #6c757d;
+  background-color: rgba(108, 117, 125, 0.8);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;

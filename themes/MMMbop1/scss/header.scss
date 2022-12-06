@@ -51,7 +51,7 @@ img {
 }
 
 .nav {
-    background-color: $color-two;
+    background-color: rgba($color-two, 0.9);
     grid-row: 2 / 2;
 
     ul > li {
