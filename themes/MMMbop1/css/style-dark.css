@@ -309,8 +309,8 @@ template {
 }
 
 .main, .table-color-details, .palette-container img, .technology-main, .box, .landingpage {
-  box-shadow: rgba(108, 117, 125, 0.15) 0 2px 8px;
-  background-color: #ced4da;
+  box-shadow: rgba(143, 143, 143, 0.15) 0 2px 8px;
+  background-color: #FFFFFF;
   border-radius: 25px;
 }
 
@@ -330,7 +330,7 @@ template {
 /* header */
 .header {
   box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
-  background-color: #ced4da;
+  background-color: #FFFFFF;
 }
 .header h1 {
   color: #202020;
@@ -373,18 +373,17 @@ img {
 }
 
 .nav {
-  background-color: rgba(173, 181, 189, 0.9);
+  background-color: #CCCCCC;
   grid-row: 2/2;
 }
 .nav ul > li {
-  border: 1px solid rgb(65, 69, 73);
   display: flex;
   flex-direction: row;
   justify-content: center;
   border-radius: 25px;
   padding: 0.25em;
   margin: 0.5em 0;
-  background-color: #495057;
+  background-color: #FFFFFF;
 }
 .nav * {
   color: #202020;
@@ -441,7 +440,7 @@ ul i {
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  background-color: #6c757d;
+  background-color: #8F8F8F;
 }
 .footer .social {
   display: flex;
@@ -458,7 +457,7 @@ ul i {
 }
 
 .landingpage {
-  background-color: rgba(108, 117, 125, 0.8);
+  background-color: rgba(143, 143, 143, 0.8);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -487,7 +486,7 @@ ul i {
 }
 .box p,
 .box a {
-  color: #495057;
+  color: #5C5C5C;
 }
 
 p > .icon {
@@ -500,7 +499,7 @@ a {
 }
 
 .technology-main {
-  background-color: #6c757d;
+  background-color: #8F8F8F;
   display: flex;
   flex-direction: column;
 }
@@ -641,21 +640,22 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   z-index: 1;
-  background-color: #ced4da;
+  background-color: #FFFFFF;
 }
 .table-color-details td,
 .table-color-details th {
   position: relative;
   padding: 15px;
-  color: #495057;
+  color: #5C5C5C;
 }
 .table-color-details th {
   font-weight: bold;
   background-color: #202020;
+  color: #FFFFFF;
 }
 .table-color-details td:hover::before,
 .table-color-details th:hover::before {
-  background-color: rgba(73, 80, 87, 0.2);
+  background-color: rgba(92, 92, 92, 0.2);
   position: absolute;
   content: "";
   height: 10000px;
@@ -665,7 +665,7 @@ table {
   z-index: -1;
 }
 .table-color-details tr:hover {
-  background-color: rgba(73, 80, 87, 0.2);
+  background-color: rgba(92, 92, 92, 0.2);
 }
 
 @media screen and (max-width: 1300px) {
@@ -6802,7 +6802,7 @@ readers do not read off random characters that represent icons */
   font-family: "Playfair Display", serif;
   font-weight: 100;
   text-align: center;
-  color: #ced4da;
+  color: #FFFFFF;
 }
 
 p {
@@ -6814,7 +6814,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #495057;
+  background: #5C5C5C;
 }
 
 h1 {
@@ -6830,7 +6830,7 @@ h2 {
 .main {
   flex-grow: 1;
   margin: 5em 1em;
-  background-color: #6c757d;
+  background-color: #8F8F8F;
 }
 
 p > img {

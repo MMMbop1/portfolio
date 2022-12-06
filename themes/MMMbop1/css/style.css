@@ -310,13 +310,13 @@ template {
 }
 
 .main, .table-color-details, .palette-container img, .technology-main, .box, .landingpage {
-  box-shadow: rgba(168, 218, 220, 0.15) 0 2px 8px;
-  background-color: #1d3557;
+  box-shadow: rgba(20, 0, 5, 0.15) 0 2px 8px;
+  background-color: #140005;
   border-radius: 25px;
 }
 
 .box:hover, .nav ul > li:hover {
-  background-color: #e63946;
+  background-color: #FF678D;
   transition-timing-function: ease-in-out;
   transition-duration: 500ms;
 }
@@ -331,14 +331,14 @@ template {
 /* header */
 .header {
   box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
-  background-color: #1d3557;
+  background-color: #140005;
 }
 .header h1 {
-  color: #e63946;
+  color: #FF678D;
   font-size: 50px;
 }
 .header p {
-  color: #e63946;
+  color: #FF678D;
 }
 
 .nav-toggle {
@@ -346,7 +346,7 @@ template {
   font-size: 30px;
 }
 .nav-toggle i {
-  color: #e63946;
+  color: #FF678D;
 }
 
 .site-header {
@@ -365,7 +365,7 @@ template {
   margin-top: 2em;
 }
 .site-header a > img {
-  filter: invert(29%) sepia(70%) saturate(2133%) hue-rotate(333deg) brightness(93%) contrast(93%);
+  filter: invert(61%) sepia(10%) saturate(7036%) hue-rotate(306deg) brightness(99%) contrast(105%);
 }
 
 img {
@@ -374,21 +374,20 @@ img {
 }
 
 .nav {
-  background-color: #457b9d;
+  background-color: #FFEBF0;
   grid-row: 2/2;
 }
 .nav ul > li {
-  border: 1px solid rgb(65, 69, 73);
   display: flex;
   flex-direction: row;
   justify-content: center;
   border-radius: 25px;
   padding: 0.25em;
   margin: 0.5em 0;
-  background-color: #f1faee;
+  background-color: #140005;
 }
 .nav * {
-  color: #e63946;
+  color: #FF678D;
 }
 
 ul {
@@ -442,7 +441,7 @@ ul i {
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  background-color: #a8dadc;
+  background-color: #FFD6E0;
 }
 .footer .social {
   display: flex;
@@ -455,11 +454,11 @@ ul i {
   justify-content: center;
 }
 .footer i {
-  color: #e63946;
+  color: #FF678D;
 }
 
 .landingpage {
-  background-color: #a8dadc;
+  background-color: rgba(255, 214, 224, 0.8);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -484,11 +483,11 @@ ul i {
   margin: 1em;
 }
 .box h2 {
-  color: #e63946;
+  color: #FF678D;
 }
 .box p,
 .box a {
-  color: #f1faee;
+  color: #FFADC2;
 }
 
 p > .icon {
@@ -501,7 +500,7 @@ a {
 }
 
 .technology-main {
-  background-color: #a8dadc;
+  background-color: #FFD6E0;
   display: flex;
   flex-direction: column;
 }
@@ -642,21 +641,21 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   z-index: 1;
-  background-color: #1d3557;
+  background-color: #140005;
 }
 .table-color-details td,
 .table-color-details th {
   position: relative;
   padding: 15px;
-  color: #f1faee;
+  color: #FFADC2;
 }
 .table-color-details th {
   font-weight: bold;
-  background-color: #e63946;
+  background-color: #FF678D;
 }
 .table-color-details td:hover::before,
 .table-color-details th:hover::before {
-  background-color: rgba(241, 250, 238, 0.2);
+  background-color: rgba(255, 173, 194, 0.2);
   position: absolute;
   content: "";
   height: 10000px;
@@ -666,7 +665,7 @@ table {
   z-index: -1;
 }
 .table-color-details tr:hover {
-  background-color: rgba(241, 250, 238, 0.2);
+  background-color: rgba(255, 173, 194, 0.2);
 }
 
 @media screen and (max-width: 1300px) {
@@ -6803,7 +6802,7 @@ readers do not read off random characters that represent icons */
   font-family: "IM Fell French Canon SC", serif;
   font-weight: 700;
   text-align: center;
-  color: #1d3557;
+  color: #140005;
 }
 
 p {
@@ -6815,7 +6814,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f1faee;
+  background: #FFADC2;
 }
 
 h1 {
@@ -6831,7 +6830,7 @@ h2 {
 .main {
   flex-grow: 1;
   margin: 5em 1em;
-  background-color: #a8dadc;
+  background-color: #FFD6E0;
 }
 
 p > img {
