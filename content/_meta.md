@@ -10,7 +10,7 @@ Social:
       icon: fas fa-moon
     - title: Destroy Session
       url: ?action=session_destroy
-      icon: fas fa-trash-alt
+      icon: fas fa-sun
 Bullet:
     - title: icon for ul
       icon: fas fa-circle-notch
