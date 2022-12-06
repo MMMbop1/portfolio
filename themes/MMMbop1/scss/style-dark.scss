@@ -1,0 +1,68 @@
+@use 'sass:math';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'header';
+@import 'footer';
+@import 'technologies';
+@import 'reports';
+
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+* {
+    @include theme;
+    text-align: center;
+    color: $color-one;
+}
+
+p {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: $color-four;
+}
+
+h1 {
+    @include theme($theme: 700);
+}
+
+h2 {
+    @include theme($theme: 700);
+}
+
+.main {
+    @extend %border-shared;
+    flex-grow: 1;
+    margin: 5em 1em;
+    background-color: $color-three;
+}
+
+p > img {
+    margin: 2em;
+    width: 75%;
+    height: 75%;
+}
+
+@media screen and (min-width: 767px) {
+    .main {
+        flex-grow: 1;
+        margin: 2.5% 25%;
+    }
+
+    p > img {
+        margin: 2em;
+        width: 50%;
+        height: 50%;
+    }
+}

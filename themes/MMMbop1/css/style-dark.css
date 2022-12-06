@@ -6,7 +6,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -310,13 +309,13 @@ template {
 }
 
 .main, .table-color-details, .palette-container img, .technology-main, .box, .landingpage {
-  box-shadow: rgba(168, 218, 220, 0.15) 0 2px 8px;
-  background-color: #1d3557;
+  box-shadow: rgba(108, 117, 125, 0.15) 0 2px 8px;
+  background-color: #ced4da;
   border-radius: 25px;
 }
 
 .box:hover, .nav ul > li:hover {
-  background-color: #e63946;
+  background-color: #202020;
   transition-timing-function: ease-in-out;
   transition-duration: 500ms;
 }
@@ -331,14 +330,14 @@ template {
 /* header */
 .header {
   box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
-  background-color: #1d3557;
+  background-color: #ced4da;
 }
 .header h1 {
-  color: #e63946;
+  color: #202020;
   font-size: 50px;
 }
 .header p {
-  color: #e63946;
+  color: #202020;
 }
 
 .nav-toggle {
@@ -346,7 +345,7 @@ template {
   font-size: 30px;
 }
 .nav-toggle i {
-  color: #e63946;
+  color: #202020;
 }
 
 .site-header {
@@ -365,7 +364,7 @@ template {
   margin-top: 2em;
 }
 .site-header a > img {
-  filter: invert(29%) sepia(70%) saturate(2133%) hue-rotate(333deg) brightness(93%) contrast(93%);
+  filter: invert(12%) sepia(11%) saturate(11%) hue-rotate(315deg) brightness(92%) contrast(96%);
 }
 
 img {
@@ -374,7 +373,7 @@ img {
 }
 
 .nav {
-  background-color: #457b9d;
+  background-color: #adb5bd;
   grid-row: 2/2;
 }
 .nav ul > li {
@@ -385,10 +384,10 @@ img {
   border-radius: 25px;
   padding: 0.25em;
   margin: 0.5em 0;
-  background-color: #f1faee;
+  background-color: #495057;
 }
 .nav * {
-  color: #e63946;
+  color: #202020;
 }
 
 ul {
@@ -442,7 +441,7 @@ ul i {
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  background-color: #a8dadc;
+  background-color: #6c757d;
 }
 .footer .social {
   display: flex;
@@ -455,11 +454,11 @@ ul i {
   justify-content: center;
 }
 .footer i {
-  color: #e63946;
+  color: #202020;
 }
 
 .landingpage {
-  background-color: #a8dadc;
+  background-color: #6c757d;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -484,11 +483,11 @@ ul i {
   margin: 1em;
 }
 .box h2 {
-  color: #e63946;
+  color: #202020;
 }
 .box p,
 .box a {
-  color: #f1faee;
+  color: #495057;
 }
 
 p > .icon {
@@ -501,7 +500,7 @@ a {
 }
 
 .technology-main {
-  background-color: #a8dadc;
+  background-color: #6c757d;
   display: flex;
   flex-direction: column;
 }
@@ -642,21 +641,21 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   z-index: 1;
-  background-color: #1d3557;
+  background-color: #ced4da;
 }
 .table-color-details td,
 .table-color-details th {
   position: relative;
   padding: 15px;
-  color: #f1faee;
+  color: #495057;
 }
 .table-color-details th {
   font-weight: bold;
-  background-color: #e63946;
+  background-color: #202020;
 }
 .table-color-details td:hover::before,
 .table-color-details th:hover::before {
-  background-color: rgba(241, 250, 238, 0.2);
+  background-color: rgba(73, 80, 87, 0.2);
   position: absolute;
   content: "";
   height: 10000px;
@@ -666,7 +665,7 @@ table {
   z-index: -1;
 }
 .table-color-details tr:hover {
-  background-color: rgba(241, 250, 238, 0.2);
+  background-color: rgba(73, 80, 87, 0.2);
 }
 
 @media screen and (max-width: 1300px) {
@@ -6800,10 +6799,10 @@ readers do not read off random characters that represent icons */
 }
 
 * {
-  font-family: "IM Fell French Canon SC", serif;
-  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
   text-align: center;
-  color: #1d3557;
+  color: #ced4da;
 }
 
 p {
@@ -6815,23 +6814,23 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f1faee;
+  background: #495057;
 }
 
 h1 {
-  font-family: "IM Fell French Canon SC", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
 }
 
 h2 {
-  font-family: "IM Fell French Canon SC", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
 }
 
 .main {
   flex-grow: 1;
   margin: 5em 1em;
-  background-color: #a8dadc;
+  background-color: #6c757d;
 }
 
 p > img {

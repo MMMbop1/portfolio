@@ -18,7 +18,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 * {
     @include theme;
     text-align: center;
-    color: rgb(64, 64, 64);
+    color: $color-one;
 }
 
 p {
@@ -30,7 +30,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: $bodybackground-color;
+    background: $color-four;
 }
 
 h1 {
@@ -44,8 +44,8 @@ h2 {
 .main {
     @extend %border-shared;
     flex-grow: 1;
-    margin: $margin;
-    background-color: $background-color;
+    margin: 5em 1em;
+    background-color: $color-three;
 }
 
 p > img {
@@ -57,7 +57,7 @@ p > img {
 @media screen and (min-width: 767px) {
     .main {
         flex-grow: 1;
-        margin: 2% 25% 0;
+        margin: 2.5% 25%;
     }
 
     p > img {

@@ -1,19 +1,26 @@
 @use 'sass:math';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
 
-
-@mixin theme($theme: 100) {
-    font-family: $play-fair;
+@mixin theme($theme: 700) {
+    font-family: 'IM Fell French Canon SC', serif;
     font-weight: $theme;
 }
 
+$color-one: #1d3557;
+$color-two: #457b9d;
+$color-three: #a8dadc;
+$color-four: #f1faee;
+$color-five: #e63946;
+
 %border-shared {
-    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
+    box-shadow: rgba($color-three, 0.15) 0 2px 8px;
+    background-color: $color-one;
     border-radius: 25px;
 }
 
 %border-hover {
-    background-color: rgb(65, 69, 73);
+    background-color: $color-five;
     transition-timing-function: ease-in-out;
     transition-duration: 500ms;
 
@@ -30,3 +37,5 @@ $margin: 1em 1em 0;
 $play-fair: 'Playfair Display', serif;
 $background-color: rgb(238, 238, 238);
 $bodybackground-color: linear-gradient(to right, #aaacad, #595959);
+
+$img-filter: invert(29%) sepia(70%) saturate(2133%) hue-rotate(333deg) brightness(93%) contrast(93%);

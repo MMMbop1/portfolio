@@ -1,0 +1,41 @@
+@use 'sass:math';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+@mixin theme($theme: 100) {
+    font-family: $play-fair;
+    font-weight: $theme;
+}
+
+$color-one: #ced4da;
+$color-two: #adb5bd;
+$color-three: #6c757d;
+$color-four: #495057;
+$color-five: #202020;
+
+%border-shared {
+    box-shadow: rgba($color-three, 0.15) 0 2px 8px;
+    background-color: $color-one;
+    border-radius: 25px;
+}
+
+%border-hover {
+    background-color: $color-five;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+
+    * {
+        color: rgb(255, 255, 255);
+    }
+}
+
+%margin-mobile {
+    margin: 2em 1em;
+}
+
+$margin: 1em 1em 0;
+$play-fair: 'Playfair Display', serif;
+$background-color: rgb(238, 238, 238);
+$bodybackground-color: linear-gradient(to right, #aaacad, #595959);
+
+$img-filter: invert(12%) sepia(11%) saturate(11%) hue-rotate(315deg) brightness(92%) contrast(96%);

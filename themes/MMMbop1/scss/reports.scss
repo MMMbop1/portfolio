@@ -2,20 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     div {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
+
     p {
         font-size: 20px;
     }
+
     img {
+        @extend %border-shared;
         width: 60%;
         margin: 2em;
-        @extend %border-shared;
     }
+
     .img-container {
         box-shadow: none;
         border-radius: 0;    
@@ -47,7 +51,7 @@
 
 table {
     width: auto;
-    margin: 5em 0em;
+    margin: 5em 0;
     border-bottom: 1em;
 }
 
@@ -70,46 +74,51 @@ table {
     border-collapse: collapse;
     overflow: hidden;
     z-index: 1;
-    background-color: rgba($color: #ffffff, $alpha: 0.4);
-    td, th {
+    background-color: $color-one;
+
+    td,
+    th {
         position: relative;
         padding: 15px;
+        color: $color-four;
     }
+
     th {
         font-weight: bold;
-        background-color: rgba($color: #9a9494, $alpha: 0.4);
+        background-color: $color-five;
     }
-    td:hover::before, th:hover::before {
-        background-color: rgba($color: #d8d2d2, $alpha: 0.4);
+
+    td:hover::before,
+    th:hover::before {
+        background-color: rgba($color-four, $alpha: 0.2);
         position: absolute;
-        content: "";
+        content: '';
         height: 10000px;
         left: 0;
         top: -5000px;
         width: 100%;
         z-index: -1;
     }
+
     tr:hover {
-        background-color: rgba($color: #d8d2d2, $alpha: 0.4);
-    }
-    td:hover {
-        background-color: rgba($color: #d8d2d2, $alpha: 1);
+        background-color: rgba($color-four, $alpha: 0.2);
     }
 }
 
 @media screen and (max-width: 1300px) {
-
     .all-palettes {
-        margin: 0em !important;
+        margin: 0 !important;
         width: 95% !important;
     }
 
     .table-details-container {
-        margin: 0em !important;
+        margin: 0 !important;
         width: 95% !important;
         overflow-x: scroll;
         display: block !important;
-        td, th {
+
+        td,
+        th {
             padding: 5px;
         }
     }
