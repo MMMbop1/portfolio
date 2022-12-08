@@ -309,13 +309,13 @@ template {
 }
 
 .main, .table-color-details, .palette-container img, .technology-main, .box, .landingpage {
-  box-shadow: rgba(143, 143, 143, 0.15) 0 2px 8px;
-  background-color: #FFFFFF;
+  box-shadow: rgba(197, 197, 197, 0.15) 0 2px 8px;
+  background-color: #202020;
   border-radius: 25px;
 }
 
 .box:hover, .nav ul > li:hover {
-  background-color: #202020;
+  background-color: #FF678D;
   transition-timing-function: ease-in-out;
   transition-duration: 500ms;
 }
@@ -330,14 +330,14 @@ template {
 /* header */
 .header {
   box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
-  background-color: #FFFFFF;
+  background-color: #202020;
 }
 .header h1 {
-  color: #202020;
+  color: #FF678D;
   font-size: 50px;
 }
 .header p {
-  color: #202020;
+  color: #FF678D;
 }
 
 .nav-toggle {
@@ -345,7 +345,7 @@ template {
   font-size: 30px;
 }
 .nav-toggle i {
-  color: #202020;
+  color: #FF678D;
 }
 
 .site-header {
@@ -383,10 +383,10 @@ img {
   border-radius: 25px;
   padding: 0.25em;
   margin: 0.5em 0;
-  background-color: #FFFFFF;
+  background-color: #202020;
 }
 .nav * {
-  color: #202020;
+  color: #FF678D;
 }
 
 ul {
@@ -440,7 +440,7 @@ ul i {
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  background-color: #8F8F8F;
+  background-color: #c5c5c5;
 }
 .footer .social {
   display: flex;
@@ -453,11 +453,11 @@ ul i {
   justify-content: center;
 }
 .footer i {
-  color: #202020;
+  color: #FF678D;
 }
 
 .landingpage {
-  background-color: rgba(143, 143, 143, 0.8);
+  background-color: #CCCCCC;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -479,14 +479,16 @@ ul i {
 
 .box {
   border-radius: 25px;
-  margin: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .box h2 {
-  color: #202020;
+  color: #FF678D;
 }
 .box p,
 .box a {
-  color: #5C5C5C;
+  color: #FF678D;
 }
 
 p > .icon {
@@ -499,7 +501,7 @@ a {
 }
 
 .technology-main {
-  background-color: #8F8F8F;
+  background-color: #CCCCCC;
   display: flex;
   flex-direction: column;
 }
@@ -640,7 +642,7 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   z-index: 1;
-  background-color: #FFFFFF;
+  background-color: #202020;
 }
 .table-color-details td,
 .table-color-details th {
@@ -650,8 +652,8 @@ table {
 }
 .table-color-details th {
   font-weight: bold;
-  background-color: #202020;
-  color: #FFFFFF;
+  background-color: #FF678D;
+  color: #202020;
 }
 .table-color-details td:hover::before,
 .table-color-details th:hover::before {
@@ -6802,7 +6804,7 @@ readers do not read off random characters that represent icons */
   font-family: "Playfair Display", serif;
   font-weight: 100;
   text-align: center;
-  color: #FFFFFF;
+  color: #202020;
 }
 
 p {
@@ -6830,7 +6832,7 @@ h2 {
 .main {
   flex-grow: 1;
   margin: 5em 1em;
-  background-color: #8F8F8F;
+  background-color: #c5c5c5;
 }
 
 p > img {

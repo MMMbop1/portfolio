@@ -20,8 +20,6 @@ https://www.svt.se/nyheter/inrikes/trots-butikskopet-ica-etta-pa-matmarknaden
 Metod
 -----------------------
 
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
-
 Besök sida av intresse, tar en screenshot och laddar upp i verktyget https://coolors.co/image-picker och väljer de färger man är intresserad av för att generera en palett.
 
 Vid val av färger räknas ej bilder på hemsidan som en del av deras färgpalett och inte heller färgen på fonten.

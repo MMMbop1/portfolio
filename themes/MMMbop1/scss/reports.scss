@@ -125,5 +125,10 @@ table {
     }
 }
 
-
-
+.google-table {
+    iframe {
+        max-width: 95%;
+        width: 900px;
+        height: 315px;
+    }
+}

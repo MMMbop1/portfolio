@@ -1,7 +1,7 @@
 .landingpage {
     @extend %border-shared;
     @extend %margin-mobile;
-    background-color: rgba($color-three, 0.8);
+    background-color: $color-two;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
@@ -25,7 +25,9 @@
 .box {
     @extend %border-shared;
     border-radius: 25px;
-    margin: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 
     h2 {
         color: $color-five;
@@ -33,7 +35,7 @@
 
     p,
     a {
-        color: $color-four;
+        color: $color-five;
     }
 }
 
@@ -53,7 +55,7 @@ a {
 .technology-main {
     @extend %border-shared;
     @extend %margin-mobile;
-    background-color: $color-three;
+    background-color: $color-two;
     display: flex;
     flex-direction: column;
 
