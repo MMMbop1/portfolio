@@ -1,0 +1,23 @@
+.gallery-main {
+    flex-grow: 1;
+    margin: 5em 1em;
+    background-color: $color-two;
+    img {
+        width: unset;
+    }
+}
+
+.gallery-wrapper {
+    margin: 1em;
+}
+
+.gallery-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    grid-gap: 1em;
+}
+
+.max-width {
+    max-width: 100%;
+}
+
