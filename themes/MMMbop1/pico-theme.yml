@@ -14,3 +14,4 @@ twig_config:                    # Twig template engine config
     charset: utf-8              # The charset used by Twig templates
 
 widescreen: false               # Use more horicontal space (i.e. make the site container wider)
+
