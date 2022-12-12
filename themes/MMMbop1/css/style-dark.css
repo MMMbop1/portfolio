@@ -308,7 +308,7 @@ template {
   display: none;
 }
 
-.main, .table-color-details, .palette-container img, .technology-main, .box, .landingpage {
+.main, .gallery-main, .table-color-details, .palette-container img, .technology-main, .box, .landingpage {
   box-shadow: rgba(197, 197, 197, 0.15) 0 2px 8px;
   background-color: #202020;
   border-radius: 25px;
@@ -686,6 +686,33 @@ table {
     padding: 5px;
   }
 }
+.google-table iframe {
+  max-width: 95%;
+  width: 900px;
+  height: 315px;
+}
+
+.gallery-main {
+  align-self: center;
+  width: 1600px;
+  margin: 5em 1em;
+  background-color: #CCCCCC;
+}
+.gallery-main img {
+  width: unset;
+  height: unset;
+}
+
+.gallery-wrapper {
+  margin: 1em;
+}
+
+.gallery-grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 1fr 1fr);
+  grid-gap: 1em;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

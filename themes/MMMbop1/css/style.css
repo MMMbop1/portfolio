@@ -458,7 +458,7 @@ ul i {
 }
 
 .landingpage {
-  background-color: rgba(255, 214, 224, 0.8);
+  background-color: #FFEBF0;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -480,14 +480,16 @@ ul i {
 
 .box {
   border-radius: 25px;
-  margin: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .box h2 {
   color: #FF678D;
 }
 .box p,
 .box a {
-  color: #FFADC2;
+  color: #FF678D;
 }
 
 p > .icon {
@@ -500,7 +502,7 @@ a {
 }
 
 .technology-main {
-  background-color: #FFD6E0;
+  background-color: #FFEBF0;
   display: flex;
   flex-direction: column;
 }
@@ -652,6 +654,7 @@ table {
 .table-color-details th {
   font-weight: bold;
   background-color: #FF678D;
+  color: #140005;
 }
 .table-color-details td:hover::before,
 .table-color-details th:hover::before {
@@ -684,6 +687,33 @@ table {
     padding: 5px;
   }
 }
+.google-table iframe {
+  max-width: 95%;
+  width: 900px;
+  height: 315px;
+}
+
+.gallery-main {
+  align-self: center;
+  width: 1600px;
+  margin: 5em 1em;
+  background-color: #FFEBF0;
+}
+.gallery-main img {
+  width: unset;
+  height: unset;
+}
+
+.gallery-wrapper {
+  margin: 1em;
+}
+
+.gallery-grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 1fr 1fr);
+  grid-gap: 1em;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6830,7 +6860,7 @@ h2 {
 .main {
   flex-grow: 1;
   margin: 5em 1em;
-  background-color: #FFD6E0;
+  background-color: #FFEBF0;
 }
 
 p > img {

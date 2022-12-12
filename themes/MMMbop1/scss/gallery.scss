@@ -1,8 +1,11 @@
 .gallery-main {
+    @extend %border-shared;
+    align-self: center;
+    width: 1600px;
     margin: 5em 1em;
     background-color: $color-two;
     img {
-        width: 100%;
+        width: unset;
         height: unset;
     }
 }
