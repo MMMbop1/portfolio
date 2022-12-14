@@ -1,5 +1,5 @@
 ---
-Logo: /../assets/img/briefcase.png
+Logo: image/briefcase.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

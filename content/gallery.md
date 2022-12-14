@@ -6,4 +6,3 @@ Template: gallery
 
 Favoriter
 ==========================
-

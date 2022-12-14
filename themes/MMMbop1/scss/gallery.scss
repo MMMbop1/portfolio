@@ -1,12 +1,14 @@
 .gallery-main {
     @extend %border-shared;
     align-self: center;
-    width: 1600px;
+    width: 100%;
     margin: 5em 1em;
     background-color: $color-two;
+
     img {
         width: unset;
         height: unset;
+        max-width: 100%;
     }
 }
 
@@ -16,7 +18,46 @@
 
 .gallery-grid-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 1em;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: 10em 0;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .gallery-main {
+        width: 700px;
+    }
+
+    .gallery-grid-container {
+        grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .gallery-main {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .gallery-main {
+        width: 1600px;
+    }
 }
 

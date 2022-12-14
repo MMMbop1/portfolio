@@ -4,27 +4,72 @@
     {% include 'incl/nav.twig' %}
     <div class="gallery-main">
         {{ content }}
-        
+
         <div class="gallery-wrapper">
         <div class="gallery-grid-container">
         <div>
-        <img class="flash-img" src="{{ base_url }}/image/gallery/buritos.jpg?w=500&h=350&crop-to-fit&q=50">
+        <a href="{{ base_url }}/image/buritos.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 766px)" srcset="{{ base_url }}/image/buritos.jpg?w=500&h=350&crop-to-fit&q=65">
+                <source media="(min-width: 767px)" srcset="{{ base_url }}/image/buritos.jpg?w=600&h=400&crop-to-fit&q=75">
+                <img src="{{ base_url }}/image/buritos.jpg" alt="A burito">
+            </picture>
+        </a>
         </div>
+
         <div>
-        <img class="flash-img" src="{{ base_url }}/image/gallery/hamburgare.jpg?w=500&h=350&crop-to-fit&q=50">
+        <a href="{{ base_url }}/image/gallery/hamburgare.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 766px)" srcset="{{ base_url }}/image/hamburgare.jpg?w=500&h=350&crop-to-fit&q=65">
+                <source media="(min-width: 767px)" srcset="{{ base_url }}/image/hamburgare.jpg?w=600&h=400&crop-to-fit&q=75">
+                <img src="{{ base_url }}/image/hamburgare.jpg" alt="A hamburgare">
+            </picture>
+        </a>
         </div>
+
+                <div>
+        <a href="{{ base_url }}/image/ostbricka-resized.png" target="_blank">
+            <picture>
+                <source media="(max-width: 766px)" srcset="{{ base_url }}/image/ostbricka-resized.png?w=500&h=350&crop-to-fit&q=65&save-as=jpg">
+                <source media="(min-width: 767px)" srcset="{{ base_url }}/image/ostbricka-resized.png?w=600&h=400&crop-to-fit&q=75&save-as=jpg">
+                <img src="{{ base_url }}/image/ostbricka-resized.png" alt="A ostbricka">
+            </picture>
+        </a>
+        </div>
+
         <div>
-        <img class="flash-img" src="{{ base_url }}/image/gallery/ostbricka.jpg?w=500&h=350&crop-to-fit&q=50">
+        <a href="{{ base_url }}/image/oxfile.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 766px)" srcset="{{ base_url }}/image/oxfile.jpg?w=500&h=350&crop-to-fit&q=65">
+                <source media="(min-width: 767px)" srcset="{{ base_url }}/image/oxfile.jpg?w=600&h=400&crop-to-fit&q=75">
+                <img src="{{ base_url }}/image/oxfile.jpg" alt="A oxfile">
+            </picture>
+        </a>
         </div>
+
         <div>
-        <img class="flash-img" src="{{ base_url }}/image/gallery/oxfile.jpg?w=500&h=350&crop-to-fit&q=50">
+        <a href="{{ base_url }}/image/pannkakor.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 766px)" srcset="{{ base_url }}/image/pannkakor.jpg?w=500&h=350&crop-to-fit&q=65">
+                <source media="(min-width: 767px)" srcset="{{ base_url }}/image/pannkakor.jpg?w=600&h=400&crop-to-fit&q=75">
+                <img src="{{ base_url }}/image/pannkakor.jpg" alt="A pannkakor">
+            </picture>
+        </a>
         </div>
+
         <div>
-        <img class="flash-img" src="{{ base_url }}/image/gallery/pannkakor.jpg?w=500&h=350&crop-to-fit&q=50">
+        <a href="{{ base_url }}/image/pasta.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 766px)" srcset="{{ base_url }}/image/pasta.jpg?w=500&h=350&crop-to-fit&q=65">
+                <source media="(min-width: 767px)" srcset="{{ base_url }}/image/pasta.jpg?w=600&h=400&crop-to-fit&q=75">
+                <img src="{{ base_url }}/image/pasta.jpg" alt="A pasta">
+            </picture>
+        </a>
         </div>
-        <div>
-        <img class="flash-img" src="{{ base_url }}/image/gallery/pasta.jpg?w=500&h=350&crop-to-fit&q=50">
         </div>
+        
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/3quvRb-vca8" frameborder="0" allowfullscreen></iframe>
         </div>
         </div>
 

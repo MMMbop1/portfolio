@@ -101,7 +101,16 @@ Resultat
 <div class="google-table">
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6nAnnB0Vw4gSKUgj1-fVndQAtuGRbQHUR06gajzdyItLyAM6G-QhAzm1g2LyAmzkU1YXx1ExKqiUo/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
+
+<h2>ICA</h2>
+<img src="../assets/img/ica.png" alt="picture-ica">
+<h2>Coop</h2>
+<img src="../assets/img/Coop.png" alt="picture-coop">
+<h2>Hemköp</h2>
+<img src="../assets/img/hemköp.png" alt="picture-hemkop">
+
 </div>
+
 
 Analys
 -----------------------
