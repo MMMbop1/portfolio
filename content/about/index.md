@@ -4,7 +4,8 @@ Description: Some information about ..?
 # hidden: true
 ---
 
-## Welcome to Pico
+Welcome to Pico
+==========================
 
 Den här sidan använder teknikerna:
 

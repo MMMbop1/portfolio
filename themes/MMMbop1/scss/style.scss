@@ -47,6 +47,9 @@ h2 {
     flex-grow: 1;
     margin: 5em 1em;
     background-color: $color-two;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    min-height: 60vh;
 }
 
 p > img {
@@ -55,10 +58,21 @@ p > img {
     height: 75%;
 }
 
+@media screen and (max-width: 1469px) {
+    .main {
+        width: 95%;
+        align-self: center !important;
+    }
+}
+
 @media screen and (min-width: 767px) {
     .main {
         flex-grow: 1;
         margin: 2.5% 25%;
+        transform: skewY(-5deg);
+        p, h1,h2 {
+            transform: skewY(5deg);
+        }
     }
 
     p > img {

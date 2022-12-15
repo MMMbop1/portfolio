@@ -3,12 +3,23 @@
 .header {
     box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
     background-color: $color-one;
+    margin-bottom: 1em;
+    border-radius: 0%;
+    @extend %border-shared;
 
     h1 {
         color: $color-five;
         font-size: 50px;
-    }
-
+        padding: 10px;
+        border-left: 5px solid;
+        border-right: 5px solid;
+        border-bottom: 5px solid;
+        border-image:
+        linear-gradient(
+            to bottom, 
+            $color-one, 
+            $color-five) 1 10%;
+        }
     p {
         color: $color-five;
     }
@@ -38,6 +49,7 @@
         height: 75px;
         margin-left: auto;
         margin-top: 2em;
+        margin-right: 2em;
     }
 
     a > img {
@@ -53,6 +65,8 @@ img {
 .nav {
     background-color: $color-two;
     grid-row: 2 / 2;
+    @extend %border-shared;
+    border-radius: 0%;
 
     ul > li {
         display: flex;
@@ -85,13 +99,31 @@ ul {
     }
 }
 
+@media screen and (min-width: 1469px) {
+    .header {
+        width: 50% !important;
+    }
+}
+
 @media screen and (min-width: 767px) {
     .header {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
 
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        align-self: center;
+        margin-top: 2em;
+        width: 95%;
+        flex-grow: 1;
+        transform: skewY(-5deg);
+        min-height: 450px;
+
         .site-header {
             grid-column: 2 / 4;
+        }
+        h1,p,.logo {
+            transform: skewY(5deg);
         }
     }
 
@@ -102,6 +134,11 @@ ul {
         justify-items: center;
     }
 
+    #nav {
+        transform: skewY(5deg);
+        margin: 2em 0em;
+    }
+
     .nav {
         ul {
             flex-direction: row;
@@ -110,6 +147,7 @@ ul {
                 padding: 1em;
                 margin-left: 1em;
                 margin-right: 1em;
+                width: 50%;
             }
 
             li > i {
