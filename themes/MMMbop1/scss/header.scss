@@ -1,11 +1,11 @@
 /* header */
 
 .header {
+    @extend %border-shared;
     box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
     background-color: $color-one;
     margin-bottom: 1em;
     border-radius: 0%;
-    @extend %border-shared;
 
     h1 {
         color: $color-five;
@@ -15,11 +15,11 @@
         border-right: 5px solid;
         border-bottom: 5px solid;
         border-image:
-        linear-gradient(
-            to bottom, 
-            $color-one, 
-            $color-five) 1 10%;
-        }
+        linear-gradient(to bottom, 
+        $color-one, 
+        $color-five) 1 10%;
+    }
+
     p {
         color: $color-five;
     }
@@ -63,9 +63,9 @@ img {
 }
 
 .nav {
+    @extend %border-shared;
     background-color: $color-two;
     grid-row: 2 / 2;
-    @extend %border-shared;
     border-radius: 0%;
 
     ul > li {
@@ -122,9 +122,13 @@ ul {
         .site-header {
             grid-column: 2 / 4;
         }
-        h1,p,.logo {
+
+        h1,
+        p,
+        .logo {
             transform: skewY(5deg);
         }
+
     }
 
     .nav {
@@ -134,9 +138,9 @@ ul {
         justify-items: center;
     }
 
-    #nav {
+    .nav-wrapper {
         transform: skewY(5deg);
-        margin: 2em 0em;
+        margin: 2em 0;
     }
 
     .nav {

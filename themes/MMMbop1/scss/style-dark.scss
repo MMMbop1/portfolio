@@ -69,7 +69,10 @@ p > img {
         flex-grow: 1;
         margin: 2.5% 25%;
         transform: skewY(-5deg);
-        p, h1,h2 {
+
+        p,
+        h1,
+        h2 {
             transform: skewY(5deg);
         }
     }

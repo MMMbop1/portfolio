@@ -58,6 +58,17 @@ p > img {
     height: 75%;
 }
 
+.header-h1 {
+    background-color: $color-one;
+    padding: 2em;
+    margin-bottom: 5em;
+    
+    h1 {
+        color: $color-five;
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 1469px) {
     .main {
         width: 95%;
@@ -70,7 +81,10 @@ p > img {
         flex-grow: 1;
         margin: 2.5% 25%;
         transform: skewY(-5deg);
-        p, h1,h2 {
+
+        p,
+        h1,
+        h2 {
             transform: skewY(5deg);
         }
     }

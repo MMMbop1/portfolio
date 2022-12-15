@@ -430,7 +430,9 @@ ul i {
   .header .site-header {
     grid-column: 2/4;
   }
-  .header h1, .header p, .header .logo {
+  .header h1,
+  .header p,
+  .header .logo {
     transform: skewY(5deg);
   }
   .nav {
@@ -439,9 +441,9 @@ ul i {
     justify-content: center;
     justify-items: center;
   }
-  #nav {
+  .nav-wrapper {
     transform: skewY(5deg);
-    margin: 2em 0em;
+    margin: 2em 0;
   }
   .nav ul {
     flex-direction: row;
@@ -6953,7 +6955,9 @@ p > img {
     margin: 2.5% 25%;
     transform: skewY(-5deg);
   }
-  .main p, .main h1, .main h2 {
+  .main p,
+  .main h1,
+  .main h2 {
     transform: skewY(5deg);
   }
   p > img {
