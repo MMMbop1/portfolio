@@ -35,7 +35,6 @@ $color-five: #ff678d;
 
 $margin: 1em 1em 0;
 $play-fair: 'Playfair Display', serif;
-$background-color: rgb(238, 238, 238);
-$bodybackground-color: linear-gradient(to right, #aaacad, #595959);
+$background-color: linear-gradient(to top, $color-two, $color-four);
 
 $img-filter: invert(12%) sepia(11%) saturate(11%) hue-rotate(315deg) brightness(92%) contrast(96%);
