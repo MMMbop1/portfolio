@@ -4,8 +4,8 @@ Description: Some information about ..?
 # hidden: true
 ---
 
-Welcome to Pico
-==========================
+<div class="header-h1"><h1>Welcome to Pico</h1></div>
+
 
 Den här sidan använder teknikerna:
 

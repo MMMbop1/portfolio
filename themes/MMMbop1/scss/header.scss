@@ -52,7 +52,7 @@
         margin-right: 2em;
     }
 
-    a > img {
+    img {
         filter: $img-filter;
     }
 }
@@ -139,12 +139,13 @@ ul {
     }
 
     .nav-wrapper {
-        transform: skewY(5deg);
         margin: 2em 0;
     }
 
     .nav {
         ul {
+            padding: 1em;
+            transform: skewY(5deg);
             flex-direction: row;
 
             li {

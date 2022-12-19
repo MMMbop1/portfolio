@@ -56,13 +56,14 @@ p > img {
     margin: 2em;
     width: 75%;
     height: 75%;
+    border-radius: 50%;
 }
 
 .header-h1 {
     background-color: $color-one;
     padding: 2em;
     margin-bottom: 5em;
-    
+
     h1 {
         color: $color-five;
         font-size: 40px;

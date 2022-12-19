@@ -371,7 +371,7 @@ template {
   margin-top: 2em;
   margin-right: 2em;
 }
-.site-header a > img {
+.site-header img {
   filter: invert(12%) sepia(11%) saturate(11%) hue-rotate(315deg) brightness(92%) contrast(96%);
 }
 
@@ -6941,6 +6941,7 @@ p > img {
   margin: 2em;
   width: 75%;
   height: 75%;
+  border-radius: 50%;
 }
 
 .header-h1 {
