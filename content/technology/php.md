@@ -1,7 +1,7 @@
 ---
 Title: php
 Description: Documentation about php technology. Describes what CSS is all about and how to use it.
-Template: technologies
+Template: technology
 # hidden: true
 ---
 

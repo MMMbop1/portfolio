@@ -1,7 +1,7 @@
 ---
 Title: html
 Description: Documentation about html technology. Describes what CSS is all about and how to use it.
-Template: technologies
+Template: technology
 # hidden: true
 ---
 

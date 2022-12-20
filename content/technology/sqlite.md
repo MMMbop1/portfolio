@@ -1,7 +1,7 @@
 ---
 Title: sqlite
 Description: Documentation about sqlite technology. Describes what CSS is all about and how to use it.
-Template: technologies
+Template: technology
 # hidden: true
 ---
 

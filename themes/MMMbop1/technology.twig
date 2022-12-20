@@ -3,10 +3,10 @@
 
 {% include 'incl/header.twig' %}
 
-{% if meta.title == "Technologies" %}
+{% if meta.title == "technology" %}
     <div class="landingpage">
         {{ content }}
-            {% for page in pages("technologies") %}
+            {% for page in pages("technology") %}
                 <div class="{{ page.title }} box" onclick="location.href='{{ page.url }}';" style="cursor: pointer;">
                     <h2> {{page.title}} </h2>
                     <p> {{page.description}} </p>
@@ -16,11 +16,11 @@
     <div>
 {% endif %}
 
-{% if meta.title != "Technologies" %}
+{% if meta.title != "technology" %}
     <div class="technology-wrapper">
 
         <div class="technology-sidebar">
-                {% for page in pages("technologies") %}
+                {% for page in pages("technology") %}
                     <div class="{{ page.title }} box" onclick="location.href='{{ page.url }}';" style="cursor: pointer;">
                         <a href="{{ page.url }}">{{ page.title }}</a>
                     </div>

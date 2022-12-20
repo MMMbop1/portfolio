@@ -1,7 +1,7 @@
 ---
 Title: css
 Description: Documentation about CSS technology. Describes what CSS is all about and how to use it.
-Template: technologies
+Template: technology
 # hidden: true
 ---
 <i class="fab fa-css3 icon"></i>
